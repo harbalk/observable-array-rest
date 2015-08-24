@@ -1,5 +1,5 @@
 {
-  "name": "example",
+  "name": "observable-array-rest",
   "version": "0.1",
   "dependencies": {
     "dcl": "1.1.2",
