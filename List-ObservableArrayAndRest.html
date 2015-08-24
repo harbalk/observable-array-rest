@@ -83,22 +83,6 @@
             };
             list.placeAt(document.body);
             document.body.style.display = "";
-            window.setTimeout(function() {
-                list.source.push({title: "book 1", id: "1"});
-                list.source.push({title: "book 2", id: "2"});
-                list.source.push({title: "book 3", id: "3"});
-                list.source.push({title: "book 4", id: "4"});
-                list.source.push({title: "book 5", id: "5"});
-                list.source.push({title: "book 6", id: "6"});
-            },1000);
-            window.setTimeout(function() {
-                list.source.splice(0,1);
-            },2000);
-            window.setTimeout(function() {
-                list.source[0].title = "Pomme";
-                list.source[1].title = "Poire";
-                list.source[2].title = "Banane";
-            },3000);
         });
     </script>
 </head>
